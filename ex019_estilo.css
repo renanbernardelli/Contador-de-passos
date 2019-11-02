@@ -15,12 +15,35 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.466);
+    position: relative;
 }
 
 div {
     text-align: center;
     padding: 8px;
     font: normal 13pt Verdana;
+}
+
+#dados p{
+    width: 50%;
+    text-align: right;
+    margin: 10px auto;
+}
+
+#button{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    background-color: rgb(21, 211, 170);
+    color: rgb(212, 255, 255);
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#res{
+    margin-top: 30px;
 }
 
 footer {
